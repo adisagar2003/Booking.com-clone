@@ -1,0 +1,51 @@
+.maillist {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #00224f;
+  align-items: center;
+  color: white;
+}
+
+.maillist__button button {
+  height: 55px;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  background-color: #0071c2;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 40px;
+  position: relative;
+  bottom: 2px;
+  font-family: sans-serif;
+}
+
+.maillist__button input {
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 5px;
+  color: rgb(111, 111, 111);
+  margin-right: 30px;
+  font-family: sans-serif;
+  width: 300px;
+  padding: 5px;
+}
+
+.maillist__quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.maillist__heading {
+  font-size: 40px;
+  font-weight: 500;
+}
+.maillist__pre {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,42 @@
+.nav {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__container {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  position: relative;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__logo {
+}
+
+.nav__button {
+  margin-right: 20px;
+
+  border: none;
+  margin-top: 20px;
+  padding: 9px;
+  z-index: 9;
+
+  cursor: pointer;
+
+  color: #003580;
+}
+.nav__button:hover {
+  background-color: #c8dfff;
+}
+
+.nav__container span {
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 20px;
+}
